@@ -1,0 +1,177 @@
+ body {
+    background-color: rgb(60, 165, 121);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* 100% da altura da janela */
+    display:flexbox;
+    /* Habilita o uso de grid */
+    place-items: center;
+    
+    
+  
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+width: 100;
+    width: 100vh;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    display: flexbox;
+    position: relative;
+    background: linear-gradient(to bottom, #54e384, #000000);
+    text-align: left;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+header,
+h1 {
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+
+
+
+
+
+}
+
+header p {
+    color: white;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav,
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: flex-start;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    justify-content: flex-start;
+}
+
+nav ul li a:hover {
+    color: greenyellow;
+}
+
+@font-face {
+    font-family: 'fonted';
+    src: url('fontes/IDroid Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2,
+h3 {
+    font-family: 'fonted';
+    color: green;
+    text-shadow: 0px 4px 10px green;
+    display: inline-block;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+
+
+
+
+}
+
+img {
+    width: 800px;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    /* Oculta qualquer parte da imagem que ultrapasse o contêiner */
+}
+
+.mulher {
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    /* Altura da faixa */
+    overflow: hidden;
+    position: relative;
+    margin: 40px 0;
+    /* Espaço antes e depois da imagem */
+    object-fit: cover;
+    /* Faz a imagem cobrir completamente o espaço, cortando o excesso */
+    object-position: center center;
+    /* Foca o centro da imagem, caso haja corte */
+}
+
+.mulher img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
+    /* Foca no centro da imagem */
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.bugdroid {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* Proporção 16:9 */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}

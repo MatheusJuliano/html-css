@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de header</title>
+    <style>
+        body{
+            background-color: lightgrey;
+     
+     
+        }
+        header {
+            width: 100%;
+            background-color: rgb(222, 226, 7);
+            padding: 10px 20px ;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+           border-radius: 10px;
+           box-sizing: border-box;
+            
+            
+    
+
+        }
+
+        nav ul li a {
+            color: rgb(17, 16, 16);
+            /* Cor dos links */
+            text-decoration: none;
+            /* Remove o sublinhado */
+            font-weight: bold;
+            transition: 0.3s;
+            /* Animação para o hover */
+
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            /* Remove os marcadores da lista */
+            display: flex;
+            /* Exibe os itens lado a lado */
+            gap: 20px;
+            /* Espaçamento entre os itens */
+            justify-content: flex-end;
+            width: 100%;
+            margin-right: 0;
+            padding: 0;
+         
+        }
+
+        nav ul li a:hover {
+            color: #f0f1f0;
+            /* Cor do link ao passar o mouse */
+
+        }
+
+        div {
+            background-color: lightslategray;
+            border: 1px solid black;
+            text-align: center;
+            align-items: center;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+
+
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: bold;
+
+        }
+
+        div:hover {
+            background-color: rgb(238, 234, 7);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bem vindo ao cabeçalho</h1>
+        <nav>
+            <ul>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#jogos">Jogos</a></li>
+                <li><a href="#Músicas">Músicas</a></li>
+                <li><a href="#Podecasts">Podecasts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Bem vindo a pagina de Aprendizado</h2>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'london' ;
+            src: url(Fontes/OldLondon.ttf) format(truetype); url(Fontes/OLondon_)format(opentype);
+           
+
+        } 
+
+
+        @font-face {
+            font-family:'roma' ;
+            src: url(Font/Roman\ SD.ttf);
+        }
+        body{background-image:linear-gradient(to right,#79727ef8,#818a96f8);
+        padding: 40px;}
+        h1{
+            font-family: london;
+            font-size: 2em;
+            text-align: center;
+            color: #525174;
+            text-shadow: 1px 1px 2px #58587e;
+        
+        }
+        h2{font-family: london;
+            font-size: 1.8em;
+            text-align: center;
+            color: #525174;
+            text-shadow: 1px 1px 2px #58587e;
+            
+            }
+        h3{font-family: london;
+            text-align: center;
+            font-size: 1.7em;
+            color: #525174;
+            text-shadow: 1px 1px 2px #58587e;
+        }
+        p{font-family: 'roma', Times, serif;
+        font-size: 1.3em;
+        text-justify: auto;
+        color: rgb(199, 186, 169);
+        text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae aliquam voluptate, impedit dolor temporibus eius fugit accusamus, deleniti, suscipit culpa cum nulla reprehenderit. Iusto dolorum repudiandae delectus at pariatur saepe?</p>
+        <h2>Título 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat eveniet dolore ullam distinctio molestias sapiente maxime laudantium vero architecto quae aspernatur provident molestiae, fuga ducimus quo similique rem iure eum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem maiores, tempore pariatur possimus assumenda, eius harum cum accusantium deserunt facere earum doloribus optio saepe ratione inventore incidunt quasi corrupti sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, provident cumque. Quo officiis nobis ullam aspernatur necessitatibus rerum, earum veniam nam error ea? Magnam maiores consectetur molestiae consequuntur? Voluptas, non?</p>
+        <h3>Título Final</h3>
+    
+</body>
+</html>

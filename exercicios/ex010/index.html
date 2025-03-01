@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trablhando com midia variaveis </title>
+</head>
+<body>
+    <h1>Voçê pode ver essa imagem em varios tamanhos</h1>
+    <p>veja o tamanho padrão</p>
+    <p>
+        <picture>
+
+            <source media="(max-width:750px )" srcset="imagens/foto-pequena.png">
+            <source media="(max-width:1050px )" srcset="imagens/foto-media.png">
+            <img src="imagens/foto-grande.png" alt="">
+
+
+
+
+        </picture>
+
+
+    </p>
+    <h1>Reproduzindo Àudios</h1>
+    <p>vamos aprender a reproduzir àudios em HTML5.</p>
+   <audio controls loop autoplay>
+    <source src="midias/Silent Night - The Soundlings.mp3" type="audio/mpeg">
+   </audio>:
+   <p>Infelizmente seu navegador não é compativel para reproduzir audios, Clique no <a href="https://studio.youtube.com/channel/UCr0IgC6IzxRmbx8MgRKqiBw/music">link para ouvir!</a> </p>
+    
+</body>
+</html>
